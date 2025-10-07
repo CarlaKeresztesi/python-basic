@@ -27,3 +27,7 @@ x = 2
 x += 2
 print(x)
 
+x = 5
+y = x
+x = 10
+print(y)
