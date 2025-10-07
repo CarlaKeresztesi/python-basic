@@ -1,6 +1,6 @@
 # For storing larger sets of data, Python has Collections.
 
-#   Lists are like arrays:
+#   Lists are collections of similar items (like arrays):
 ["apples", "bread", "eggs"]
 # if we want to use the lists, we attribute them to a variable:
 shopping_list = ["apples", "bread", "eggs"]
