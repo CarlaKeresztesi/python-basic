@@ -54,3 +54,4 @@ print(stock)
 # pop() method to remove an item from a dict:
 stock.pop("dresses")
 print(stock)
+
