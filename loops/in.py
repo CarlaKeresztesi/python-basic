@@ -4,7 +4,7 @@
 
 gift_list = ['boots', 'perfume', 'lippy', 'card']
 
-for gift in gift_list:
+for gift in gift_list:        # gift = placeholder variable
     print('- ' + gift)
 
 #   -->used to check if a value is present in a sequence(list, range or string, etc.).
