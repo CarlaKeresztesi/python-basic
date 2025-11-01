@@ -1,4 +1,16 @@
-#   Dictionaries = dicts - they are key:value pairs --> we reference the key to access the value.
+""""" COLLECTIONS:
+For storing larger sets of data, Python has Collections.
+
+    Dictionaries = dicts (hashMaps or maps in other languages)
+        --> key:value pairs --> we reference the key to access the value.
+        
+        --> Access: through the key we get the value
+        
+        --> dictionaries keys are often string values;
+        --> dictionaries values can be any data type => strings, numbers, booleans, lists or even embedded dictionaries.
+        
+        https://docs.python.org/3/library/stdtypes.html#mapping-types-dict 
+"""""
 
 car = {
     "brand": "Ford",
