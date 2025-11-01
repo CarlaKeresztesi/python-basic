@@ -5,7 +5,12 @@ print('A string is text in quotes')
 
 """ the Escape character \
 """
+# example 1
 print("Jane said \"Hi!\"")
+
+# example 2
+text = "someone then said, \"text can be tricky\""
+print(text)
 
 """ Unicode characters - all coding languages see unicode characters within double or single quotes, not sentences or paragraphs
 """
@@ -44,3 +49,15 @@ print("Jane" + "Doe")
 print("Jane" + " " + "Doe")
 
 print("number" + " " + "4")
+
+#Example:
+first_name = 'jane'
+last_name = 'doe'
+full_name = first_name + ' ' + last_name # --> ' ' = a space is a Unicode character within itself
+print(full_name)
+age = 25
+""" str --> built in function to convert to a string, so we can concatenate and display what is needed.
+        --> known as casting in many languages --> str(age)  --> casted integer into a string
+"""
+print(full_name + ' ' + str(age))
+
