@@ -60,3 +60,4 @@ counter = 0
 while counter < 10:
     print(counter)
     counter += 1 # if i don't increment the counter it stays at 0 so it is still an infinite loop
+                 # so don't forget counter iteration in while loops!

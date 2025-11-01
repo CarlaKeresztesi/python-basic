@@ -6,7 +6,8 @@
                        *  condition that is either true or false
                        *  ':' - colon 
                        *  action
-
+        while -true condition- :
+                do... (don't forget counter iteration)
 """""
 
 #loop_control = False
