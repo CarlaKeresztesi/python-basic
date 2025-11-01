@@ -1,9 +1,6 @@
 """"
 Numbers and math operators
 
-T-shirts - 5 (int)
-Cost per T-shirt - 5.50 (float)
-
 Operator |                   Meaning                    |        Example                |
    +     |    Add                                       |      4 + 4 (8)                |
    -     |    Subtract                                  |      4 - 2 (4)                |
@@ -11,6 +8,8 @@ Operator |                   Meaning                    |        Example        
    /     |    Divide                                    |      6 / 2 (3)                |
    %     |    Modulo - (divisible by) returns remainder |      5 % 2 (remainder = 1)    |
 
+T-shirts - 5 (int)
+Cost per T-shirt - 5.50 (float)
 Work out total cost of our t-shirt order:
 """""
 #print(type(5))

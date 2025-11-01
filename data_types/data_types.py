@@ -5,6 +5,7 @@
  number can be
     integers = any non-floating point numbers e.g. 100, 25, 1
     floats or floating point numbers = the one containing a decimal point e.g. 9.99
+    
     to check the type of a number:
 """""
 print(type(9.99))
