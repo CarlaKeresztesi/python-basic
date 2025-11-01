@@ -1,9 +1,19 @@
-#   Loops = iterators = a program that will iterate over a sequence of items.
-#    - regularly used with collections(list and dictionaries) and alongside control flow(if)
-#    - in Python, we used 2 key types of loops -> while and -> for loops
-
-# for... loops - rely on iterables(- in Python that is a list, a dictionary or a string) to know how many iterations to complete
-
+""""" 
+    LOOPS => iterators = a program that will iterate over a sequence of items.
+    
+    * regularly used with collections(list and dictionaries) and alongside control flow(if)
+    
+    * in Python, we used 2 key types of loops:
+    
+            --> while - non-deterministic loops --> reliant on boolean conditions
+                      - a while loop will operate until a condition is true and once it is false it will stop; 
+                       
+            --> for loops - deterministic loops = it will loop a determined number of times
+                          - needs to be given an iterable object and 
+                          will cycle through each object within the iterable (i.e. through a list, a dictionary or a string) 
+                          and return it for action.
+                          
+"""""
 shopping_list = ['eggs', 'milk', 'bread', 'coffee']
 
 for grocery in shopping_list:
