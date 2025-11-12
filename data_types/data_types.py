@@ -1,12 +1,12 @@
 """"" Data Types
 
- string = anything involving characters or text - contained within quotes - either "" or ''(e.g. "This is a string" or 'This is a string')
+ - string = anything involving characters or text - contained within quotes - either "" or ''(e.g. "This is a string" or 'This is a string')
 
- number can be
-    integers = any non-floating point numbers e.g. 100, 25, 1
-    floats or floating point numbers = the one containing a decimal point e.g. 9.99
+ - numbers can be
+    - integers = any non-floating point numbers e.g. 100, 25, 1
+    - floats or floating point numbers => the ones containing a decimal point e.g. 9.99
     
-    to check the type of a number:
+    to check the type of data -> use the type():
 """""
 print(type(9.99))
 print(type(100))

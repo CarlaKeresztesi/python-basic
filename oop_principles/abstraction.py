@@ -1,0 +1,1 @@
+#class Customer: #class name is capitalised

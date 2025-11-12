@@ -4,6 +4,11 @@ For storing larger sets of data, Python has Collections.
    Lists are collections of similar items ideally! (like arrays): ["apples", "bread", "eggs"]
         https://docs.python.org/3/library/stdtypes.html#list
 
+    Key characteristics of List items are:
+    - ordered, 
+    - changeable, and 
+    - allow duplicate values.
+    
     If we want to use the lists, we attribute them to a variable:
 """""
 shopping_list = ["apples", "bread", "eggs"]
