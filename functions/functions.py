@@ -5,7 +5,7 @@
     METHOD -> belongs to a class and only available to use when that class is instantiated.
 
     DRY code = Dont Repeat Yourself - functions make the code organised and reusable!
-    
+      
         'def functionName(value): 
             return or another action'
 """""
@@ -17,6 +17,15 @@ print_hello_world()
 """""
     Function parameters - allow something to be passed to the function:
     * if a function requests an argument, we must provide it with data for that argument, otherwise -> error
+    
+    Parameters vs Arguments
+The terms parameter and argument can be used for the same thing: information that are passed into a function.
+
+From a function's perspective:
+
+A parameter is the variable listed inside the parentheses in the function definition.
+
+An argument is the actual value that is sent to the function when it is called.
 """""
 def double_plus_one(number):
     result = number * 2 + 1
